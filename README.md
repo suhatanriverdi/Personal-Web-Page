@@ -1,1 +1,1 @@
-This is my first personal portfolio webpage projects purely written in HTML, CSS and JS.
+This is my first personal portfolio webpage purely written in HTML, CSS and JS.
