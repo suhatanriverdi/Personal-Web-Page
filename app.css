@@ -4,6 +4,7 @@ html {
     min-width: 100vw;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
+    text-align: justify;
     font-size: 1.15rem;
     scroll-behavior: smooth;
 }
@@ -60,7 +61,7 @@ body {
     object-fit: cover;
     user-select: none;
     cursor: pointer;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #ff950038;
+    box-shadow: 0rem 0rem 0.3rem 0.2rem #ff9500;
 }
 
 .galleryPic:hover {
@@ -140,7 +141,7 @@ section {
 .sendBtn {
     justify-content: center;
     align-items: center;
-    background-color: #e5faff;
+    background-color: #ffc8a0;
     border-radius: 15px;
     border: 1px solid #969696;
     width: 6rem;
@@ -151,10 +152,10 @@ section {
 .sendBtn:hover {
     justify-content: center;
     align-items: center;
-    background-color: #bfe8f8;
+    background-color: #ffa666;
     border-radius: 15px;
-    border: 0.5px solid #7fabba;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #009fff59;
+    border: 0.5px solid #ff822a;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #ff540059;
     width: 6rem;
     height: 2rem;
     float: right;
@@ -163,10 +164,10 @@ section {
 .sendBtn:active {
     justify-content: center;
     align-items: center;
-    background-color: #a2dcff;
+    background-color: #ff8832;
     border-radius: 15px;
-    border: 0.5px solid #7fabba;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #79c4d6;
+    border: 0.5px solid #ff822a;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #ff540059;
     width: 6rem;
     height: 2rem;
     float: right;
@@ -309,7 +310,7 @@ such as a div, paragraph, list, etc.*/
 }
 
 .nav {
-    background: #ffd89c8f;
+    background: #ffd79c7a;
     /*	background: linear-gradient(135deg, #ffe1b4, #e3f7ff);*/
     backdrop-filter: blur(0.3rem);
     /*    box-shadow: 0rem 0rem 0.01rem 0.04rem #f2f2f2;*/
@@ -334,6 +335,7 @@ such as a div, paragraph, list, etc.*/
 	and border to also be included in its width and height.
 	*/
     box-sizing: border-box;
+    z-index: 1;
     /*    padding: 0 20%;*/
 }
 
