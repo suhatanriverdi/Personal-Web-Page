@@ -5,8 +5,18 @@ html {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.15rem;
-    /*    font-family: 'Open Sans', sans-serif;*/
     scroll-behavior: smooth;
+}
+
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.hr {
+    border: 0.1rem solid transparent;
 }
 
 body {
@@ -15,6 +25,38 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.galleryContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.galleryPic {
+    width: 200px;
+    height: 140px;
+    margin: 0.5%;
+    border-radius: 15px;
+    object-fit: cover;
+    user-select: none;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #ff950038;
+}
+
+.galleryPic:hover {
+    width: 200px;
+    height: 140px;
+    margin: 0.5%;
+    border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0rem 0rem 0.3rem 0.2rem #ff9500;
+}
+
+.input-corner {
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .width {
@@ -48,6 +90,10 @@ label {
     color: #042632;
 }
 
+b {
+    color: #0b4458;
+}
+
 .fs-xl {
     font-size: x-large;
 }
@@ -74,7 +120,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #e5faff;
-    border-radius: 3rem;
+    border-radius: 15px;
     border: 1px solid #969696;
     width: 6rem;
     height: 2rem;
@@ -85,7 +131,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #bfe8f8;
-    border-radius: 3rem;
+    border-radius: 15px;
     border: 0.5px solid #7fabba;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #009fff59;
     width: 6rem;
@@ -97,7 +143,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #a2dcff;
-    border-radius: 3rem;
+    border-radius: 15px;
     border: 0.5px solid #7fabba;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #79c4d6;
     width: 6rem;
@@ -105,8 +151,9 @@ section {
     float: right;
 }
 
-.s-b {
+.f-centerize {
     justify-content: space-between;
+    align-items: center;
 }
 
 .w-f {
@@ -128,6 +175,10 @@ section {
     padding-bottom: 2%;
 }
 
+.pad-t {
+    padding-top: 2%;
+}
+
 h2 {
     font-size: xx-large;
     font-weight: 400;
@@ -136,7 +187,7 @@ h2 {
 }
 
 h3 {
-    font-size: x-large;
+    font-size: larger;
     font-weight: 400;
     user-select: none;
     color: #0b4458;
