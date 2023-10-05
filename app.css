@@ -33,6 +33,16 @@ body {
     overflow: hidden;
 }
 
+.previewContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#preview {
+    display: none;
+}
+
 .galleryPic {
     width: 200px;
     height: 140px;
@@ -43,7 +53,18 @@ body {
     box-shadow: 0rem 0rem 0.1rem 0.05rem #ff950038;
 }
 
+.previewPic {
+    width: 800px;
+    height: 446.4px;
+    margin: 0.5%;
+    border-radius: 15px;
+    object-fit: cover;
+    user-select: none;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #ff950038;
+}
+
 .galleryPic:hover {
+    opacity: 0.8;
     width: 200px;
     height: 140px;
     margin: 0.5%;
@@ -288,7 +309,7 @@ such as a div, paragraph, list, etc.*/
 }
 
 .nav {
-    background: #ffd89c4a;
+    background: #ffd89c8f;
     /*	background: linear-gradient(135deg, #ffe1b4, #e3f7ff);*/
     backdrop-filter: blur(0.3rem);
     /*    box-shadow: 0rem 0rem 0.01rem 0.04rem #f2f2f2;*/
